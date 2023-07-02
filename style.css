@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#btnStarter {
+    width: 130px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+#authForm {
+    /* display: none; */
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+}
+
+.header {
+    width: 100%;
+    height: 15%;
+    background-color: red;
+    border-radius: 12px 12px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: white;
+    margin: 15px;
+}
+
+.btnClose {
+    width: 20px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    border: none;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.body {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.forInputs {
+    width: 170px;
+    height: 50px;
+
+}
+
+label, ::placeholder {
+    font-size: 12px;
+    padding-left: 5px;
+}
+input{
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+}
+::placeholder{
+    padding: 10px;
+}
+.footer {
+    padding: 15px;
+}
+
+.submitBtn {
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 150px;
+    position: absolute;
+    top: 90%;
+    right: 40%;
+
+}
+.warningText{
+    font-size: 10px;
+    color: yellow;
+    margin-top: 5px
+
+}
